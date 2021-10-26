@@ -1,0 +1,135 @@
+{
+  "main": {
+    "id": "80d956457d146066",
+    "type": "split",
+    "children": [
+      {
+        "id": "112a0e67d53409c8",
+        "type": "leaf",
+        "dimension": 99.99999999999999,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Komputer/Programowanie/problemy programistyczne/zbiory/Lider w zbiorze.md",
+            "mode": "preview"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "5156c19ce8a1da61",
+    "type": "split",
+    "children": [
+      {
+        "id": "43ae3225566d550f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "dd1ae3d548b4a3ca",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "4a167cd1296d0905",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#db",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "b5e684a0ef5f4dc4",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "81382a8bfe1db62b",
+    "type": "split",
+    "children": [
+      {
+        "id": "a773287048eb56cc",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2b16378d4f84b085",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Komputer/Programowanie/problemy programistyczne/zbiory/Lider w zbiorze.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": true,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "15ad7aa8862c0224",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "d94100a79011d84a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6da1dffb47305fdd",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 401
+  },
+  "active": "112a0e67d53409c8",
+  "lastOpenFiles": [
+    "Komputer/Programowanie/problemy programistyczne/zbiory/Lider w zbiorze.md",
+    "Komputer/Programowanie/Język programowania/Python/problemy programistyczne/zbiory/Lider w zbiorze - python.md",
+    "Komputer/Programowanie/problemy programistyczne/problemy programistyczne.md",
+    "Komputer/Programowanie/Język programowania/Python/problemy programistyczne/rozwiązania problemów programistycznych w pythonie.md",
+    "Komputer/Programowanie/Język programowania/języki programowania.md",
+    "Komputer/Programowanie/Zagadnienia/Zagadnienia programistyczne.md",
+    "Komputer/Programowanie/Programowanie.md",
+    "Komputer/Bazy danych/Sql/kwerendy sql/join.md",
+    "Komputer/Bazy danych/Sql/kwerendy sql/Kwerendy sql.md",
+    "Komputer/Bazy danych/Sql/SQL informacje.md"
+  ]
+}
