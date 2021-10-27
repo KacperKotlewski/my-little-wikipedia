@@ -1,16 +1,14 @@
 # Znajdowanie lidera w zbiorze
 ---
-chodzi o to by znaleść **liczbe** (lub element) w zbiorze o długości **n** która się powtarza więcej niż połowę razy czyli występuje więcej niż **n//2** razy, jeżeli nie spełnia warunku lider nie istnieje
+W zadanaich tego typu chodzi o to by znaleść **liczbe** (lub element) w zbiorze o długości **n**, która się powtarza więcej razy niż połowa z n, czyli występuje więcej niż **n//2** razy, jeżeli nie spełnia warunku występywania więcej razy niż połowa długości listy to lider nie istnieje.
 
-``ilość_wystąpień_liczby > n//2``
+``ilość_wystąpień_liczby > n//2``,
+gdzie `>` oznacza `większe od`, a `//` oznacza `dzielenie bez reszty` czyli do liczby całkowitej
 
 można to rozwiązać na 3 (mi znane) sposoby:
 - [[#metoda 1]]  licznika **O(n^2)**
 - [[#metoda 2]] słownika liczników	**O(n^2)**
 - [[#metoda 3]] parowanie i wyznaczanie lidera **O(n)**
-
-
->, dwa z nich o czasie wykonania **O(n^2)** czyli kwadratowym, poprzez zliczanie każdego elementu i wypisaniu tego który spełnia ``ilość_wystąpień_liczby > n//2``, jedyna różnica między nimi jest taka że jeden wykorzystuje dict a drugi zlicza po kolei następne wyrazy z listy. Natomiast trzeci o czasie wykonania **O(n)** czyli liniowym polegającym na eliminacji poprzez parowanie.
 
 
 ---
@@ -27,24 +25,28 @@ uśrediona złożoność czasowa | O(n^2)
 najgorsza możliwa złożoność przestrzenna | O(n)
 
 
-```py
-def lider_metoda_1(lista):
-	n = len(lista)
-
-	for i in range(n):
-		aktualny_kandydat_na_lidera = lista[i]
-		licznik = 0
-		
-		for j in range(i, n):
-			if aktualny_kandydat_na_lidera == lista[j]:
-				licznik += 1
-				
-		if licznik > n//2:
-			return aktualny_kandydat_na_lidera
-			
-	return None
 ```
-[[Lider w zbiorze - python#metoda 1|implementacja python]]
+lista <- zawieralistę danych do sprawdzenia przez algorytm
+n <- rozmiar listy
+połowa_listy <- n podzielone bez reszty przez 2 (int)
+
+lider_metoda_1:
+
+	dla i od 0 do n wykonuj:
+		aktualny_kandydat_na_lidera <- lista[i]
+		licznik <- 0
+		
+		dla j od i do n wykonuj:
+			jeżeli aktualny_kandydat_na_lidera jest równy lista[j] wykonaj:
+				licznik <- licznik + 1
+				
+		jeżeli licznik jest większy od  wykonaj:
+			zwróć jako wynik aktualny_kandydat_na_lidera
+			
+	zwróć błąd lub wartość pustą jak None czy Null
+```
+implementacja:
+- [[Lider w zbiorze - python#metoda 1|python]]
 
 ---
 
@@ -79,7 +81,8 @@ def lider_metoda_2(lista):
 
 	return None
 ```
-[[Lider w zbiorze - python#metoda 2|implementacja python]]
+implementacja:
+- [[Lider w zbiorze - python#metoda 2|python]]
 
 ---
 
@@ -133,7 +136,8 @@ def lider_metoda_1(lista):
 	return None
 
 ```
-[[Lider w zbiorze - python#metoda 3|implementacja python]]
+implementacja:
+- [[Lider w zbiorze - python#metoda 3|python]]
 
 
 ---
